@@ -1,0 +1,153 @@
+button{
+    cursor: pointer;
+    
+    
+}
+body
+{
+  padding: 10px;
+  background-color: #fcfcfc;
+    font-family: 'Poiret One', cursive;
+}
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+.img34 {
+    
+    -webkit-animation:spin 50s linear infinite;
+    -moz-animation:spin 50s linear infinite;
+    animation:spin 50s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.outer-div
+{
+    padding: 80px;
+  background-color: #f3f3f3;
+     margin-top: 10px;
+    border: 0.1px white;
+    height: 1050px;
+box-sizing: content-box;    
+   
+     
+}
+
+    
+    #pic{
+        
+        margin-left: 800px;
+        margin-top: 13px;
+    }
+#cont{
+    margin-right: 900px;
+        margin-top: -320px;
+    height: 100px;
+}
+
+#exTab1 .tab-content {
+  color : black;
+  background-color: white;
+  padding : 5px 15px;
+width: 70%;
+
+}
+
+
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+.edit{
+float: right;
+    margin-top: -50px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+strong{
+    color: orange;
+}
+/* The expanding image container */
+.cont {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+footer{
+     position: inherit;
+   margin-bottom: -9px;
+}
+ .copyright { min-height:20px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px ; margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-top:7px;}
+ .bottom_ul li { float:left; line-height:9px; margin-top:7px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+
+
+
+
